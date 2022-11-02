@@ -17,7 +17,7 @@ def load_model() -> None:
     """
     regressor.load_model("assets/models/model.joblib")
 
-    # return
+    return
 
 
 @app.get("/api/get_woz_value")
